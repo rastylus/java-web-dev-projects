@@ -10,10 +10,13 @@ public class Area {
         if (radius <= 0) {
             System.out.println("Error");
             System.exit(0);
-        }
-//        } else if(Double.isNaN(radius)) {
+        } else if (Double.isNaN(radius)) {
+            System.out.println("Please enter a number.");
+            System.exit(0);
+//        } else if () {
 //            System.out.println("Error");
 //            System.exit(0);
+        }
         Double circ = Circle.getArea(radius);
 //        Double circ = radius * radius * 3.14;
         System.out.println("The area of a circle of " + radius + " is: " + circ);
