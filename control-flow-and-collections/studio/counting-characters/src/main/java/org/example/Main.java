@@ -1,13 +1,28 @@
 package org.example;
 //import java.util.HashMap;
 import java.util.*;
+import java.io.*;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 public class Main {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a quote to see the character count: ");
 //        String str1 = "If the product of two terms is zero then common sense says at least one of the two terms has to be zero to start with. So if you move all the terms over to one side, you can put the quadratics into a form that can be factored allowing that side of the equation to equal zero. Once you’ve done that, it’s pretty straightforward from there.";
-        String str1 = input.nextLine().toLowerCase();
+//        String str1 = input.nextLine().toLowerCase();
+
+            Path fileName
+                    = Path.of("C:\\/Users/ryanriggs/Code/java-web-dev-projects/control-flow-and-collections/studio/counting-characters/src/main/java/org/example/string");
+
+            // Now calling Files.readString() method to
+            // read the file
+            String str1 = Files.readString(fileName);
+            System.out.println(str1);
+
+
 
 //        String str1 = quote;
         String newstr = "";

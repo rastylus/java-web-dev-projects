@@ -3,8 +3,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CharCount {
-    public static void count(char[] args) {
-        HashMap<String, Double> characters = new HashMap<>();
+    public static void main(String[] args) {
 
     }
 }
