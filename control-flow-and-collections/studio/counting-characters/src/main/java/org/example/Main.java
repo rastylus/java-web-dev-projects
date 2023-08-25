@@ -1,8 +1,8 @@
 package org.example;
 //import java.util.HashMap;
 import java.util.*;
-import java.io.*;
-import java.io.IOException;
+//import java.io.*;
+//import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
@@ -15,7 +15,7 @@ public class Main {
 //        String str1 = input.nextLine().toLowerCase();
 
             Path fileName
-                    = Path.of("C:\\/Users/ryanriggs/Code/java-web-dev-projects/control-flow-and-collections/studio/counting-characters/src/main/java/org/example/string");
+                    = Path.of("C:\\/Users/ryanriggs/Code/test.txt");
 
             // Now calling Files.readString() method to
             // read the file
