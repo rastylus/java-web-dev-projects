@@ -1,7 +1,6 @@
 package org.launchcode;
 
-public class Main {
-
+public class Restaurant {
     public static void main(String[] args) {
 
     }
