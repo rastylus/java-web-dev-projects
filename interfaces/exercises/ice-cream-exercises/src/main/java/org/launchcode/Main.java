@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class Main {
+
     public static void main(String[] args) {
         Case menu = new Case();
         ArrayList<Flavor> flavors = menu.getFlavors();
@@ -23,6 +24,17 @@ public class Main {
         toppings.sort(new ToppingComparator());
 
         // TODO: Print the 'flavors' and 'cones' lists (in a clear manner) to verify the sorting.
-        System.out.println(toppings);
+
+//        System.out.println(toppings);
+        for (Flavor t : flavors) {
+            System.out.println(t);
+        }
+        for (Cone t : cones) {
+            System.out.println(t);
+        }
+        for (Topping t : toppings) {
+            System.out.println(t);
+        }
+
     }
 }

@@ -15,13 +15,20 @@ public class Main {
         // Test out your CheckFileExtension() function!
     }
 
-    public static void Divide(int x, int y)
+    public static int Divide(int x, int y)
     {
-        // Write code here!
+        if (y <= 0) {
+            try {
+                throw new ZeroException("The total score must be above zero.");
+            } catch (ZeroException e) {
+                e.printStackTrace();
+            }
+        }
+        return x/y;
     }
 
-    public static int CheckFileExtension(String fileName)
-    {
-        // Write code here!
-    }
+//    public static int CheckFileExtension(String fileName)
+//    {
+//        // Write code here!
+//    }
 }

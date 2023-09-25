@@ -13,6 +13,8 @@ public abstract class Ingredient {
         allergens = someAllergens;
     }
 
+
+
     public String getName() {
         return name;
     }
@@ -36,6 +38,7 @@ public abstract class Ingredient {
     public void setAllergens(ArrayList<String> allergens) {
         this.allergens = allergens;
     }
+
 
     @Override
     public String toString() {
