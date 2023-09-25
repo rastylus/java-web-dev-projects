@@ -9,6 +9,7 @@ public class Main {
 
         cd.spinDisc();
         dvd.spinDisc();
+        cd.spinDisc();
 
         cd.readData();
         dvd.readData();
